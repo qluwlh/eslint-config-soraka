@@ -10,7 +10,6 @@
   "repository": "https://github.com/wanglihua007/eslint-config-soraka",
   "author": "wanglihua <wanglihua@innobuddy.com>",
   "license": "MIT",
-  "private": false,
   "keywords": [
     "eslint",
     "prettier"
