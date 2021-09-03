@@ -1,4 +1,5 @@
 module.exports = {
+  'react/no-unused-prop-types': 0, // 定义但未使用的props
   'react/no-access-state-in-setstate': 0, //
   'react/no-unused-state': 0, //
   'react/button-has-type': 0, // button type 默认值
@@ -29,5 +30,5 @@ module.exports = {
   'react-hooks/rules-of-hooks': 2, // Checks rules of Hooks
   'react/jsx-no-duplicate-props': 2, //防止在JSX中重复的props
   'react/no-direct-mutation-state': 2, //防止this.state的直接变异
-  'react/no-unknown-property': 2, //防止使用未知的DOM属性
+  'react/no-unknown-property': 2, //防止使用未知的DOM属性,
 }

@@ -40,6 +40,9 @@ module.exports = {
     'no-underscore-dangle': 0, // _属性
     'no-use-before-define': 0,
     'prefer-destructuring': 0, // _属性
+    'no-redeclare': 0, // ts 会存在函数重载
+    'no-nested-ternary': 0, // 嵌套三元表达式
+    'import/no-mutable-exports': 0, // 多个导出
     ...tsConfig,
     ...reactConfig,
     ...jsxA11yConfig,
