@@ -2,15 +2,21 @@
 
 # eslint-config-soraka
 
-包含 prettier，eslint 的配置文件
+react项目eslint规则，需要预装prettier，eslint, typescript
 # Use
 
-安装
+install
 
 ```bash
 npm i eslint-config-soraka --save-dev
 yarn add eslint-config-soraka -D
-```
+``` 
+or 
+
+```bash
+npm i eslint-config-soraka prettier eslint typescript --save-dev
+yarn add eslint-config-soraka prettier eslint typescript -D
+``` 
 
 in `.eslintrc.js`
 
